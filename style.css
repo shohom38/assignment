@@ -78,7 +78,7 @@
     color: #ffffff;
 }
 
-.navbar_menu li:nth-child(1) {
+.navbar_menu li:nth-child() {
     margin-left: 14px;
 }
 
@@ -109,13 +109,21 @@ h1 {
     padding-left: 0;
 }
 
-.sidebar_menu li {
+.sidebar_menu>li:last-child() {
+    margin-bottom: 0;
+}
+
+.sidebar_menu>li {
     width: 150px;
     padding: 5px 10px;
-    margin-bottom: 10px;
     color: #f9af56;
     font-weight: 600;
 }
+
+.sidebar_menu>li:not(last-child) {
+    margin-bottom: 10px;
+}
+
 .sidebar_menu li:hover {
     border-radius: 3px;
     box-shadow: 1px 1px 10px  rgb(218, 218, 218);
