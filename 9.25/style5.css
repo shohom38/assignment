@@ -1,15 +1,24 @@
 .wrap5 {
+    display: flex;
+    flex-wrap: wrap;
     width: 1000px;
     height: 1100px;
     margin: 0 auto;
 }
 
+.header {
+    width: 100%;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 150px;
+    margin-right: 60px;
+}
 
 .page_container3 {
-    display: flex;
     width: 790px;
     height: 920px;
-    float: right;
     position: relative;
     top: 35px;
     right: 50px;
@@ -123,7 +132,7 @@ h3 {
 .btn_container {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin-top: 200px;
 }
 
 .btn {
