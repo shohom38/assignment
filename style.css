@@ -6,8 +6,8 @@
 
 .wrap {
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 1250px;
+    margin: 0 auto;
 }
 
 .top_nav {
@@ -127,9 +127,10 @@ h1 {
     flex-wrap: wrap;
     width: 790px;
     height: 870px;
+    position: relative;
+    top: 35px;
+    right: 50px;
     float: right;
-    margin-top: 35px;
-    margin-right: 50px;
     padding: 50px 50px;
     border: 1.5px solid lightgray;
     border-radius: 5px;
@@ -153,7 +154,7 @@ h1 {
 }
 
 .sub_title p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .sub_title span {
